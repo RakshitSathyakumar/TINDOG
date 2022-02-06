@@ -1,0 +1,188 @@
+
+/*############################################ ✔✔✔ body ✔✔✔ #################################################### */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+} 
+/* ############################################### ✔✔✔ Title section ✔✔✔ ##################################### */
+#title{
+    background-color:#ff4c68;
+    color: white;
+    padding-right: 15%;padding-left: 15%;
+
+}
+
+.container-fluid{
+
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+/* ############### 😉😉 navbar 😉😉 ####################*/
+.navbar{
+    padding: 0;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;  
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family:'Montserra-Thin';
+    font-size: 1.2rem;
+}
+/* ####### 😉😉 title image 😉😉######### */
+.Iphone_pic{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 20%;
+}
+/* ########### 😉😉 Download buttons😉😉####### */
+.download_button{
+    margin: 15% 5% 5% 0%;
+}
+
+/*##########😉😉 FONT AWESOME ICONS 😉😉########### */
+.icons-feature{
+    color: #ef8172;
+    size: 1rem;
+}
+
+.icons-feature:hover{
+    color: #ff4c68;
+}
+/* ############################################### ✔✔✔ section features ✔✔✔ ############################### */
+
+#features{
+    padding: 7% 15%;
+    margin: 0%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+/* ################ 😉😉 media qurery 😉😉###################### */
+@media (max-width:1028px){
+
+    .Iphone_pic{
+        position: static;
+        transform:rotate(0) ;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
+/*######### 😉😉 h3 features 😉😉################# */
+.h3-features{
+    
+    line-height: 1.5;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 3%;
+    font-weight: 900;
+
+}
+/*############ 😉😉 para features 😉😉########### */
+.para-features{
+    color: #8f8f8f;
+}
+/* ################################################ ✔✔✔ TESTIMONIALS ✔✔✔ ##################################################*/
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+/*############## 😉😉 testimonials h2 😉😉 ############## */
+.testimonials_h2{
+    font-family: 'Montserrat' ;
+    font-weight: 700;
+    font-size: 3rem;
+}
+/*################ 😉😉 testimonial image 😉😉  ############### */
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+/* ################## 😉😉 carousel item😉😉 ####################### */
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+/*####################### ✔✔✔ press ✔✔✔ #########################*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-logo{
+    padding-bottom: 3%;
+    width: 15%;
+    margin: 10px 20px 50px;
+}
+/* ######################################################## ✔✔✔ Pricing ✔✔✔ ###########################################*/
+#pricing{
+    padding: 8%;
+    text-align: center;
+}
+/* ################### 😉😉 Headings pricing 😉😉 ############### */
+.H2-main-heading-pricing{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3rem;
+}
+.h2-pricing{
+    font-family: 'Montserra';
+    font-weight: bold;
+
+}
+.h3-pricing{
+    font-family: 'Montserra';
+    font-weight: bold;
+}
+/* ######################### 😉😉 card pricing 😉😉 ################### */
+.card{
+    padding: 3% 2%;
+}
+
+/* ########################################## ✔✔✔ CTA ✔✔✔ ############################################## */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7%;
+}
+/*################ 😉😉 Heading cta 😉😉 ################# */
+.h3-cta{
+    font-size: 3.5rem; 
+     font-family: 'Montserrat', sans-serif; 
+     font-weight: bolder; line-height: 1.5; color: white;
+
+}
+/*#################😉😉 BTN CTA 😉😉###########*/
+
+.btncta{
+    margin: 10px;
+}
+
+/* ######################################### ✔✔✔ footer ✔✔✔################################################## */
+#footer{
+    background-color: #ffffff;
+    padding: 7%;
+    text-align: center;
+}
+/* ############### 😉😉 para footer 😉😉################ */
+.para-footer{
+    color: grey;
+}
+/* * ########## 😉😉 icon fotter 😉😉################# */ 
+.icta{
+    margin: 0 10px;
+}
